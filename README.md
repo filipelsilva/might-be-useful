@@ -1,4 +1,4 @@
 # Other files
 
-This repo is meant to be a source of information about programs, and keep
-useful things in writing.
+This repo is meant to be a source of information about useful things that I (and
+you) might need one day.
