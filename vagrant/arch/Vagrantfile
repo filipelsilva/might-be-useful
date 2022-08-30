@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'libvirt'
+
+Vagrant.configure("2") do |config|
+  config.vm.define "archlinux" do |config|
+    config.vm.box = "archlinux/archlinux"
+    config.vm.provider :libvirt do |domain|
+      domain.cpus = 2
+      domain.memory = 2048
+    end
+  end
+end
